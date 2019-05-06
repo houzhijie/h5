@@ -1,0 +1,55 @@
+
+/*手机导航部分css代码*/
+.contentBG .phoneClass {
+    width:100%;
+    height: 120px;
+    background-color: #f6f1eb;
+
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+.contentBG .phoneClass ul {
+    width: 1050px;
+    height: 120px;
+    margin: 0 auto;
+    /**/
+    overflow: hidden;
+    text-align: center;
+}
+
+.contentBG .phoneClass ul li {
+    float: left;
+    width: 145px;
+    height: 120px;
+    /*background-color: blue;*/
+    text-align: center;
+    overflow: hidden;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.contentBG .phoneClass ul li a {
+    color: #999;
+}
+
+.contentBG .phoneClass ul li:hover {
+    border-bottom: 2px solid red;
+}
+
+
+.contentBG .phoneClass ul li img {
+    width: 120px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contentBG .phoneClass ul li .newPhone {
+    color: red;
+}
+
+
+

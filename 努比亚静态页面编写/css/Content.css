@@ -1,0 +1,339 @@
+
+/*内容部分*/
+/*视频部分*/
+
+.contentBG .content .videoPhone {
+    width: 1200px;
+    height: 250px;
+    margin-top: 8px;
+}
+
+.contentBG .content .videoPhone ul {
+    width: 1200px;
+    height: 250px;
+}
+.contentBG .content .videoPhone ul li {
+    width: 397px;
+    height: 250px;
+    /*float: left;*/
+    display: inline-block;
+    overflow: hidden;
+
+}
+.contentBG .content .videoPhone ul li{
+    position: relative;
+    text-align: center;
+}
+
+.contentBG .content .videoPhone ul li:nth-child(1){
+    position: relative;
+    margin-right: 3px;
+}
+
+.contentBG .content .videoPhone ul li img {
+    height: 250px;
+    margin: 0 -100%;
+}
+
+.contentBG .content .videoPhone ul li .animationDiv {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    margin-right: 3px;
+    width: 397px;
+    height: 250px;
+    background-color: rgba(0,0,0);
+    text-align: center;
+    color: #999;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.contentBG .content .videoPhone ul li:hover .animationDiv {
+    opacity: 0.7;
+}
+
+.contentBG .content .videoPhone ul li:hover .animationDiv img {
+    animation: imgAnination 2.0s linear 0.5s infinite normal;
+}
+
+
+.contentBG .content .videoPhone ul li .animationDiv img {
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    margin-top: 100px;
+
+}
+
+@keyframes imgAnination {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(0.7);
+    }
+    40% {
+        transform: scale(1.3);
+    }
+    60% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.contentBG .content .videoPhone ul li .animationDiv .heijinban {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px;
+}
+
+.contentBG .content .videoPhone ul li:nth-child(2) {
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+}
+
+.contentBG .content .videoPhone ul li:nth-child(3) {
+    margin-left: 3px;
+}
+
+/*产品部分*/
+
+.contentBG .content .newProduct {
+    height: 1220px;
+    width: 1200px;
+    /*background-color: skyblue;*/
+}
+
+/*更多*/
+
+.contentBG .content .more p:nth-child(1) {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+}
+
+.contentBG .content .more p:nth-child(2) {
+    font-size: 12px;
+    text-align: center;
+    margin: 30px;
+    color: red;
+}
+
+/*产品展示*/
+.contentBG .content .newProduct .productShow {
+    overflow: hidden;
+}
+
+.contentBG .content .newProduct .productShow .productShowTop {
+    height: 400px;
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 65px;
+    position: relative;
+}
+/*产品描述css设置*/
+.contentBG .content .newProduct .productShow .descProduct {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+.contentBG .content .newProduct .productShow .descProduct p:nth-child(1) {
+    color: black;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.contentBG .content .newProduct .productShow .descProduct p:nth-child(2){
+    margin: 0 auto;
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.contentBG .content .newProduct .productShow .descProduct p:nth-child(3){
+    margin: 0 auto;
+    color: #999999;
+    font-size: 12px;
+    line-height: 30px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    width: 100px;
+}
+
+/*最上面产品*/
+.contentBG .content .newProduct .productShow .productShowTop img {
+    /*height: 250px;*/
+    width: 1200px;
+    margin-left: -100px;
+    transition: margin-left 0.5s;
+}
+
+.contentBG .content .newProduct .productShow .productShowTop:hover img {
+    margin-left: 0px;
+}
+
+.contentBG .content .newProduct .productShow .productShowTop .descProduct{
+    left: 900px;
+    top: 125px;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom {
+    margin-top: 10px;
+    height: 810px;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomLeft {
+    width: 400px;
+    height: 810px;
+    background-color: white;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+/*下面的左面产品*/
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomLeft .descProduct {
+    left: 100px;
+    top: 700px;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomLeft img {
+    width: 400px;
+transition: transform 0.5s;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomLeft:hover img {
+    transform: scale(1.1);
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight {
+    width: 790px;
+    height: 810px;
+    float: right;
+}
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightTop {
+    width: 790px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightTop .descProduct {
+    left: 295px;
+    top: 280px;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightTop img {
+    width: 790px;
+    margin-left: 100px;
+    transition: margin-left 0.5s;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightTop:hover img {
+    margin-left: 0px;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightBottom {
+    margin-top: 10px;
+    width: 790px;
+    height: 400px;
+
+}
+
+/*最下面的两个产品展示*/
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightBottom .productShowBottomRightBottomLeft {
+    float: left;
+    width: 390px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightBottom .productShowBottomRightBottomLeft .descProduct{
+    left: 95px;
+    top: 330px;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightBottom .productShowBottomRightBottomLeft img{
+    width: 390px;
+    transition: transform 0.5s;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightBottom .productShowBottomRightBottomLeft:hover img {
+    transform: scale(1.2);
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightBottom .productShowBottomRightBottomTight {
+    float: right;
+    width: 390px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightBottom .productShowBottomRightBottomTight img{
+    width: 390px;
+    transition:transform 0.5s;
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightBottom .productShowBottomRightBottomTight:hover img {
+    transform: scale(1.2);
+}
+
+.contentBG .content .newProduct .productShow .productShowBottom .productShowBottomRight .productShowBottomRightBottom .productShowBottomRightBottomTight .descProduct{
+    left: 95px;
+    top: 330px;
+}
+/*精选配件*/
+.contentBG .content .selectAccessory {
+    margin-top: 160px;
+    width: 1200px;
+    height: 500px;
+    /*background-color: royalblue;*/
+}
+
+.contentBG .content .selectAccessory .accessoryShow ul {
+    width: 1200px;
+    height: 300px;
+
+}
+
+.contentBG .content .selectAccessory .accessoryShow ul li {
+    width: 297px;
+    height: 300px;
+    float: left;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contentBG .content .selectAccessory .accessoryShow ul li:hover img {
+    transform: scale(1.2);
+}
+
+.contentBG .content .selectAccessory .accessoryShow ul li img {
+    width: 297px;
+    transition: all 1.0s;
+}
+
+.contentBG .content .selectAccessory .accessoryShow ul li:nth-child(2),li:nth-child(3),li:nth-child(4) {
+    margin-left: 4px;
+}
+.contentBG .content .selectAccessory .accessoryShow ul li a p {
+    position: relative;
+    /*z-index: 3;*/
+    font-size: 12px;
+    color: #999999;
+}

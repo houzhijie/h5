@@ -1,0 +1,83 @@
+
+/*底部css样式*/
+
+.footerBG .footer {
+    padding-top: 20px;
+}
+
+.footerBG .footer .footerTop,.footerBottom {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.footerBG .footer .footerTop .search {
+    margin-top: 20px;
+}
+
+
+.footerBG .footer .footerTop .search img {
+    width: 15px;
+    height: 15px;
+}
+
+.footerBG .footer .footerTop .search span {
+    display: inline-block;
+    line-height: 20px;
+}
+
+.footerBG .footer .footerTop .Zxilie {
+    height: 120px;
+    margin-top: 30px;
+
+
+}
+
+.footerBG .footer .footerTop .Zxilie dl {
+    width: 200px;
+    height: 90px;
+    float: left;
+}
+
+.footerBG .footer .footerTop .Zxilie dl dt {
+    color: black;
+    font-size: 16px;
+}
+
+.footerBG .footer .footerTop .Zxilie dl dd {
+    color: #999999;
+    font-size: 12px;
+}
+
+.footerBG .footer .footerTop .Zxilie dl dd a {
+    color: #999999;
+}
+
+
+.footerBG .footer .footerBottom .aboutMe {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footerBG .footer .footerBottom .aboutMe .testUserHeader {
+    display: inline-block;
+    background-image: url("../images/nubia-syb-all.png");
+    background-position: 0 -90px;
+    width: 30px;
+    height: 30px;
+}
+
+.footerBG .footer .footerBottom .aboutMe a{
+    color: #999999;
+}
+
+.footerBG .footer .footerBottom .lastLine {
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.footerBG .footer .footerBottom .lastLine img:nth-child(1),img:nth-child(2) {
+    width: 15px;
+    height: 15px;
+}
+
