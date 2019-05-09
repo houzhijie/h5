@@ -1,0 +1,201 @@
+
+/*头部*/
+.header {
+    width: 100%;
+    /*height: 195px;*/
+    background-color: red;
+}
+.header img {
+    width: 100%;
+    /*让图片和盒子的底部对齐*/
+    vertical-align: bottom;
+
+}
+
+
+/*内容*/
+
+.content {
+    width: 100%;
+    height: 370px;
+    background-color: red;
+    margin: 0 auto;
+}
+/*第一层UL li  竖直排列*/
+.content .contentUL {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content .contentUL>li {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+/*第二层  ul li  横向排列*/
+.content .contentUL>li>ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+    padding: 0 1px;
+    box-sizing: border-box;
+}
+.content .contentUL li>ul>li {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    margin-left: 1px;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+/*酒店*/
+.content .contentUL .jiudian>ul>li:nth-child(1) {
+    background-color: #ed615c;
+}
+.content .contentUL .jiudian>ul>li p{
+    background-color: #ed615c;
+
+}
+/*设置文字*/
+.content .contentUL .topP {
+    line-height: 50px;
+}
+
+.content .contentUL .bottomP {
+
+    line-height: 49px;
+    margin-top: 1px;
+}
+/*设置网格中所有的图片*/
+.content .contentUL li>ul>li:nth-child(1) img{
+    height: 50px;
+}
+
+.content .contentUL li>ul>li:nth-child(1) p{
+    line-height: 45px;
+}
+/*机票*/
+.content .contentUL .jipiao>ul>li:nth-child(1) {
+    background-color: #47a6f0;
+}
+.content .contentUL .jipiao>ul>li p {
+    background-color: #47a6f0;
+}
+/*度假*/
+.content .contentUL .dujia>ul>li:nth-child(1) {
+    background-color: #89b549;
+}
+.content .contentUL .dujia>ul>li p {
+    background-color: #89b549;
+}
+/*金融*/
+.content .contentUL .jinrong {
+    height: 50px;
+}
+.content .contentUL .jinrong>ul>li {
+
+    background-color: #f29d38;
+}
+.content .contentUL .jinrong>ul>li:nth-child(1) p{
+    line-height: 50px;
+}
+
+
+/*签证*/
+.qianzheng {
+    width: 100%;
+    height: 140px;
+    background-color: yellow;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/*第一层 ul*/
+.qianzheng>ul {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.qianzheng>ul>li {
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+flex-grow: 1;
+}
+.qianzheng>ul>li div {
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background-color: green;
+    margin-top: 10px;
+}
+
+.qianzheng>ul>li p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #333333;
+}
+
+
+.qianzheng>ul>li div {
+    background-image: url("../images/icons.png");
+    background-position: -40px -16px;
+    background-repeat: no-repeat;
+}
+
+/*底部*/
+
+.footer {
+    width: 100%;
+    height: 130px;
+    background-color: skyblue;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.footer>ul {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: yellowgreen;
+
+}
+
+.footer>ul>li {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.footer>ul>li>div {
+    background-color: rosybrown;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.footer>ul>li>p {
+    margin-top: 5px;
+    color: #333333;
+    font-size: 12px;
+}
+
+.footer>p {
+    line-height: 50px;
+    font-size: 16px;
+    color: #999999;
+}
+.footer>p>span {
+    color: black;
+}
+
