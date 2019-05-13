@@ -1,0 +1,173 @@
+/*手机适配*/
+
+/*头部*/
+.header {
+    display: none;
+}
+
+/*头部*/
+
+/*分页*/
+
+.scrollPage {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.scrollPage .scrollPage_in {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.scrollPage .scrollBGA {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.scrollPage .scrollBGA>img {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.scrollPage .scrollBGA>img:nth-child(1) {
+    display: none;
+}
+
+.scrollPage .vivoNav .vivoNavContent {
+    display: none;
+}
+.scrollPage .vivoNav .search {
+    display: none;
+}
+
+.scrollPage .vivoNav .logo {
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scrollPage .vivoNav .logo a{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+}
+
+.scrollPage .phoneDesc {
+    display: none;
+}
+
+/*分页*/
+
+
+/*内容*/
+.content {
+    height: 1220px;
+}
+
+.content .content_in ul li {
+    width: 100%;
+    height: 305px;
+    overflow: hidden;
+}
+.content .content_in ul li img {
+    height: 305px;
+    width: 100%;
+}
+
+/*内容*/
+.footer {
+    height: 500px;
+}
+
+.footer .footer_in .share ul {
+    box-sizing: border-box;
+    padding :0 40px;
+}
+
+.footer .footer_in .share ul>li {
+
+    width: 100%;
+
+}
+
+.footer .footer_in .share ul>li:last-child {
+    width: 100%;
+}
+
+.footer .footer_in .share ul>li:last-child .kefu {
+    margin-top: 40px;
+}
+
+.footer .footer_in .share ul>li:last-child .kefu a{
+    float: left;
+    font-size: 30px;
+    color: #415fff;
+}
+
+.footer .footer_in .share ul>li:last-child p {
+    text-align: right;
+}
+
+.footer .footer_in .share ul>li:last-child .kefu .rexian {
+    font-size: 18px;
+}
+
+.footer .footer_in .share ul>li dd {
+    display: none;
+}
+
+.footer .footer_in .share ul>li dt {
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 50px;
+    color: #cccccc;
+}
+
+.footer .footer_in .share ul>li dt::after {
+    content: "";
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: url("./../images/add.png") center center no-repeat;
+    background-size: 20px 20px;
+}
+
+
+.footer .footer_in .share ul {
+    flex-direction: column;
+}
+/*内容*/
+
+/*版权*/
+.copyright {
+    padding: 0 60px;
+}
+
+.copyright .copyright_in .setaboutvivo {
+    float: none;
+
+}
+
+.copyright .copyright_in .setaboutvivo ul li a {
+    font-size: 22px;
+}
+
+.copyright .copyright_in .setCopyRight {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+
+/*版权*/
+
+

@@ -1,0 +1,103 @@
+
+/*分页头部适配开始*/
+
+.nav2 {
+    display: inline-block;
+}
+
+.nav1 {
+    display: none;
+}
+
+.scrollPage .vivoNav {
+    width: 100%;
+}
+
+.scrollPage .vivoNav .logo {
+    margin-left: 20px;
+}
+
+.scrollPage .vivoNav .search {
+    margin-right: 20px;
+}
+
+.scrollPage .phoneDesc .image1 {
+    width: 200px;
+    height: 30px;
+    background-image: url("./../images/vivo-banner-title1-mini.png");
+}
+
+.scrollPage .phoneDesc .image2 {
+    width: 200px;
+    height: 30px;
+    background-image: url("./../images/vivo-banner-title2-mini.png");
+}
+
+.scrollPage .phoneDesc .image3 {
+    width: 200px;
+    height: 30px;
+    background-image: url("./../images/vivo-banner-title3-mini.png");
+}
+
+.scrollPage .phoneDesc {
+    height: 150px;
+}
+
+/*分页头部结束*/
+
+/*分页*/
+
+.content .content_in ul {
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.content .content_in ul li {
+    width: 50%;
+    flex: none;
+    margin-top: 5px;
+
+}
+
+.content .content_in ul li img {
+    vertical-align: bottom;
+}
+
+
+.content {
+    margin-top: 0px;
+    height: 610px;
+}
+
+
+
+/*分页*/
+
+/*底部*/
+.footer .footer_in {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/*底部*/
+/*版权*/
+.copyright {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.copyright .copyright_in {
+    width: 100%;
+}
+
+.copyright .copyright_in .setCopyRight {
+    float: none;
+    display: block;
+    margin-right: 25%;
+}
+
+.copyright .copyright_in .setaboutvivo {
+
+}
+
+/*版权*/
+

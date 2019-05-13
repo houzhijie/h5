@@ -1,0 +1,434 @@
+
+/*头部导航*/
+.header {
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    padding: 0 48px;
+    box-sizing: border-box;
+}
+
+
+.header_in {
+    height: 100%;
+    width: 100%;
+}
+
+.header .header_in .brand {
+    height: 100%;
+}
+
+.header .header_in .brand>ul>li{
+    float: left;
+    margin-right: 42px;
+    height: 100%;
+    /*background-color: red;*/
+}
+
+.header .header_in .brand>ul>li:last-child {
+    margin-right: 0px;
+}
+
+.header .header_in .brand>ul>li a{
+
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.header .header_in .loginAndRegist {
+    height: 100%;
+
+}
+
+.header .header_in .loginAndRegist>ul>li{
+    float: right;
+    margin-left: 42px;
+    height: 100%;
+    /*background-color: red;*/
+}
+
+.header .header_in .loginAndRegist>ul>li:last-child {
+    margin-left: 0;
+
+}
+
+.header .header_in .loginAndRegist>ul>li a{
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.header .header_in .loginAndRegist>ul>li:nth-child(2) a {
+    margin-right: 18px;
+}
+.header .header_in .loginAndRegist>ul>li:first-child {
+    margin-left: 26px;
+}
+
+
+.header .header_in ul li:hover a{
+    color: #999;
+}
+
+/*中间分页*/
+.scrollPage {
+    /*height: 812px;*/
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.scrollPage .scrollBGA>img {
+    width: 100%;
+    vertical-align: bottom;
+}
+.scrollPage .vivoNav {
+    height: 60px;
+    width: 1200px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrollPage .vivoNav .logo {
+    background-color: transparent;
+
+}
+.scrollPage .vivoNav .logo .logoIcon {
+    font-size: 100px;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+}
+
+.scrollPage .vivoNav .logo a:hover{
+    color: skyblue;
+}
+
+.scrollPage .vivoNav .vivoNavContent {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.scrollPage .vivoNav .vivoNavContent>ul {*/
+/*    */
+/*}*/
+
+.nav2 {
+    display: none;
+}
+
+.scrollPage .vivoNav .vivoNavContent>ul>li {
+    height: 60px;
+    text-align: center;
+    margin: 0 28px;
+    float: left;
+}
+
+.scrollPage .vivoNav .vivoNavContent>ul>li:nth-child(1) {
+    margin: 0;
+}
+
+.scrollPage .vivoNav .vivoNavContent>ul>li:last-child {
+    margin: 0;
+}
+
+.scrollPage .vivoNav .vivoNavContent>ul>li a {
+    line-height: 60px;
+    font-size: 16px;
+    color: #000;
+}
+
+.scrollPage .vivoNav .vivoNavContent>ul>li:hover a {
+    color: skyblue;
+}
+
+.scrollPage .vivoNav .search {
+    height: 100%;
+}
+
+.scrollPage .vivoNav .search p {
+    height: 100%;
+    line-height: 60px;
+    color: #999999;
+    font-size: 30px;
+}
+
+.scrollPage .vivoNav .search:hover p {
+    color: skyblue;
+}
+
+
+.scrollPage .phoneDesc {
+    width: 304px;
+    height: 225px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    text-align: center;
+    overflow: hidden;
+}
+
+.scrollPage .phoneDesc div {
+    width: 304px;
+    height: 45px;
+    background-image: url("./../images/vivo-banner-title1.png");
+}
+
+.scrollPage .phoneDesc .image2 {
+    background-image: url("./../images/vivo-banner-title2.png");
+}
+
+.scrollPage .phoneDesc .image3 {
+    background-image: url("./../images/vivo-banner-title3.png");
+}
+
+.scrollPage .phoneDesc p {
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    height: 30px;
+}
+
+.scrollPage .phoneDesc p a {
+
+    font-size: 14px;
+    height: 20px;
+    width: 60px;
+    color: white;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.scrollPage .phoneDesc p b {
+    width: 16px;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+.scrollPage .phoneDesc p:hover b{
+    width: 60px;
+}
+
+.scrollPage .phoneDesc p:hover a {
+    opacity: 1;
+}
+.scrollPage .pageControl {
+    width: 128px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scrollPage .pageControl>ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrollPage .pageControl>ul li {
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.scrollPage .pageControl>ul li:hover {
+    height: 4px;
+}
+
+/*内容*/
+.content {
+    height: 300px;
+    width: 100%;
+
+}
+
+.content .content_in ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content .content_in ul li {
+    width: 100px;
+    height: 100%;
+    flex: 1;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content .content_in ul li img {
+    height: 100%;
+    margin: 0 -100%;
+}
+
+.content .content_in ul li div {
+    width: 100%;
+    
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.content .content_in ul li div p:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.content .content_in ul li:nth-child(2),li:nth-child(4) div p {
+    color: white;
+}
+
+/*.content .content_in ul li p:nth-child(2) {*/
+/*    top: 30px;*/
+/*    font-size: 14px;*/
+/*}*/
+
+/*底部分享*/
+
+.footer {
+    height: 250px;
+    width: 100%;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.footer .footer_in {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.footer .footer_in .share ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer .footer_in .share ul>li {
+    width: 100px;
+    height: 100%;
+    flex: 1;
+}
+
+.footer .footer_in .share ul>li dt {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-bottom: 40px;
+}
+
+.footer .footer_in .share ul>li dd {
+    color: #666666;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 18px;
+}
+
+.footer .footer_in .share ul>li dd:nth-child(1){
+    margin-top: 0px;
+}
+
+.footer .footer_in .share ul>li:last-child {
+    width: 180px;
+    height: 100%;
+    flex: 1;
+    text-align: center;
+}
+
+.footer .footer_in .share ul>li:last-child .kefu {
+    height: 100%;
+    width: 100%;
+
+}
+
+.footer .footer_in .share ul>li:last-child .kefu a{
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.footer .footer_in .share ul>li:last-child .kefu .rexian {
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.footer .footer_in .share ul>li:last-child .kefu .shuzi {
+    margin: 0 auto;
+    color: #415fff;
+    font-size: 24px;
+}
+
+
+/*版权*/
+.copyright {
+    margin-top: 75px;
+    /*height: 75px;*/
+    width: 100%;
+    /*overflow: hidden;*/
+    /*background-color: greenyellow;*/
+}
+
+
+.copyright .copyright_in {
+    width: 1200px;
+    height: 100%;
+    /*overflow: hidden;*/
+    /*background-color: coral;*/
+    border-top: 1px solid #666666;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.copyright .copyright_in .setCopyRight {
+    height: 100%;
+    display: inline-block;
+    color: #666666;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.copyright .copyright_in .setCopyRight a {
+    color: #666666;
+}
+
+.copyright .copyright_in .setaboutvivo {
+    padding:10px 0;
+    height: 100%;
+    /*background-color: skyblue;*/
+    box-sizing: border-box;
+}
+
+
+.copyright .copyright_in .setaboutvivo ul li {
+    float: left;
+}
+
+.copyright .copyright_in .setaboutvivo ul li:first-child {
+    margin-right: 60px;
+}
+
+.copyright .copyright_in .setaboutvivo ul li a {
+    color: #666666;
+}
+
+
