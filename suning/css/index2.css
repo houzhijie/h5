@@ -1,0 +1,624 @@
+/*限时*/
+
+.timeLimit {
+    height: 327px;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.timeLimit .timeLimit_in {
+    width: 1190px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+}
+.timeLimit_in .qianggou {
+    height: 47px;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+}
+
+.timeLimit_in .qianggou>p {
+    display: inline-block;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 80px;
+    font-weight: 300;
+}
+
+.timeLimit_in .qianggou>img {
+    margin-left: 20px;
+}
+
+.timeLimit_in .qianggou>span {
+    margin-left: 20px;
+}
+
+.timeLimit_in .qianggou>a {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    color: #999;
+    height: 19px;
+    font-size: 14px;
+}
+
+.timeLimit_in .qianggou>a>span {
+    font-size: 14px;
+    color: #999;
+}
+
+.timeLimit_in .qianggou .qianggoutime {
+    font-size: 14px;
+    margin-left: 0px;
+}
+
+.timeLimit_in .qianggou .qianggoutime>span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    margin: 0 10px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.timeLimit_in .qianggou .firstchang {
+    background-image: linear-gradient(to right, #ec5649 ,#f09272);
+    margin-left: 60px;
+    width: 140px;
+    font-size: 14px;
+    color: white;
+    border-radius: 12px;
+}
+
+.timeLimit_in .qianggoushop {
+    height: 260px;
+    width: 100%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.timeLimit_in .qianggoushop ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.timeLimit_in .qianggoushop ul>li {
+    border-right: 1px solid #e7e7e7;
+    width: 199px;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 10px 10px;
+}
+
+.timeLimit_in .qianggoushop ul>li>a>img {
+    width: 159px;
+    height: 159px;
+}
+
+.timeLimit_in .qianggoushop ul>li>a .shoptitle {
+    overflow: hidden;
+    height: 16px;
+    line-height: 16px;
+}
+
+.timeLimit_in .qianggoushop ul>li>a .price {
+    color: #ed615c;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+.timeLimit_in .qianggoushop ul>li>a .price>span {
+    /*color: #333;*/
+    /*font-size: 12px;*/
+    margin-left: 10px;
+}
+
+.timeLimit_in .qianggoushop ul>li>a .progress {
+    display: inline-block;
+    width: 100px;
+    height: 6px;
+
+    background: url("./../images/icons.png") -561px -74px no-repeat;
+    position: relative;
+    margin-left: 0px;
+}
+
+.timeLimit_in .qianggoushop ul>li>a .progress>span {
+    display: inline-block;
+    width: 50px;
+    height: 6px;
+
+    background: url("./../images/icons.png") -561px -94px no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.timeLimit_in .qianggoushop ul>li>a>p:last-child {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.timeLimit_in .qianggoushop ul>li:last-child a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+/*限时*/
+
+/*内容*/
+
+.content {
+    height: 587px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.content .content_in {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content .content_in>div {
+    height: 100%;
+    width: 590px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.content .content_in>div>div:nth-child(1) {
+    height: 47px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.content .content_in>div>div:nth-child(1)>p {
+    display: inline-block;
+    line-height: 47px;
+    color: #56a374;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 14px;
+}
+
+.content .content_in>div>div:nth-child(1)>span {
+    display: inline-block;
+    width: 4px;
+    height: 21px;
+    background-color: #56a374;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+
+.content .content_in>div>div:nth-child(1)>p>span{
+    display: inline-block;
+    color: #56a374;
+    margin-left: 10px;
+}
+
+.content .content_in>div>div:nth-child(1)>ul {
+    height: 47px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .content_in>div>div:nth-child(1)>ul>li {
+    height: 47px;
+    margin-right: 20px;
+}
+
+.content .content_in>div>div:nth-child(1)>ul>li>a {
+    line-height: 47px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.content .content_in>div>div:nth-child(1)>ul>li>a:hover {
+    color: #f29d38;
+}
+
+.content .content_in>div>div:nth-child(2) {
+     width: 100%;
+     height: 469px;
+ }
+
+
+.content .content_in>div>div:nth-child(2) .content_shop {
+    height: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop .hot_shop {
+    height: 360px;
+    width: 190px;
+    background-color: maroon;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop .hot_shop img {
+    height: 360px;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop .hot_shop .shop_info {
+    display: inline-block;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+
+    width: 160px;
+    background-color: rgba(0,0,0,0.6);
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop .hot_shop .shop_info>p {
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop .hot_shop .shop_info>p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop>ul{
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop>ul>li {
+    float: left;
+    width: 200px;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop>ul>li:nth-child(even) {
+    border-right: none;
+}
+
+/*.content .content_in>div>div:nth-child(2) .content_shop>ul>li>a {*/
+/*    */
+/*}*/
+.content .content_in>div>div:nth-child(2) .content_shop>ul>li>a:hover img {
+    transform: scale(1.1);
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop>ul>li>a>img {
+    width: 110px;
+    height: 110px;
+    transition: all 0.5s;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop>ul>li>a>p {
+    margin-bottom: 5px;
+}
+.content .content_in>div>div:nth-child(2) .content_shop>ul>li>a>p:nth-child(1) {
+    font-size: 16px;
+    color: #333333;
+}
+
+.content .content_in>div>div:nth-child(2) .content_shop>ul>li>a>p:nth-child(2) {
+    font-size: 12px;
+    color: #33AE75;
+}
+
+
+.content .content_in>div>div:nth-child(2) .content_youhui {
+    height: 109px;
+    width: 100%;
+}
+
+.content .content_in>div>div:nth-child(2) .content_youhui >ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content .content_in>div>div:nth-child(2) .content_youhui >ul>li {
+    width: 200px;
+    height: 109px;
+    box-sizing: border-box;
+    border-right: 1px solid #e7e7e7;
+    position: relative;
+
+}
+
+.content .content_in>div>div:nth-child(2) .content_youhui >ul>li:last-child {
+    border-right:none;
+
+}
+
+.content .content_in>div>div:nth-child(2) .content_youhui >ul>li:hover a>img {
+    transform: scale(1.1);
+}
+
+.content .content_in>div>div:nth-child(2) .content_youhui >ul>li:nth-child(1) {
+    width: 190px;
+    height: 109px;
+}
+
+.content .content_in>div>div:nth-child(2) .content_youhui >ul>li>a>p {
+    /*display: inline-block;*/
+    font-size: 14px;
+    color: #333333;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.content .content_in>div>div:nth-child(2) .content_youhui >ul>li>a>p:nth-child(1) {
+    margin-top: 30px;
+}
+
+.content .content_in>div>div:nth-child(2) .content_youhui >ul>li>a>p:nth-child(2) {
+    font-size: 12px;
+    color: #33AE75;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.content .content_in>div>div:nth-child(2) .content_youhui >ul>li>a>img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: all 0.5s;
+}
+
+.content .content_in>div>div:nth-child(3) {
+    width: 100%;
+    height: 51px;
+    align-items: center;
+}
+
+.content .content_in>div>div:nth-child(3) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .content_in>div>div:nth-child(3) img {
+    width: 80px;
+    height: 30px;
+}
+
+/*内容*/
+
+/*end*/
+
+.endLable {
+
+    width: 100%;
+    height: 75px;
+    background-color: #F2F2F2;
+    padding: 15px 0px 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.endLable .endLable_in {
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.endLable .endLable_in>p {
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #cccccc;
+    margin: 0 50px;
+}
+
+.endLable .endLable_in>span {
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #cccccc;
+}
+
+/*end*/
+
+
+/*底部*/
+
+.footer{
+    border-top: 1px solid #e7e7e7;
+    height: 278px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.footer .footer_in {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer .footer_in .service_top {
+    height: 99px;
+    width: 100%;
+    padding: 12px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.footer .footer_in .service_top>ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer .footer_in .service_top>ul>li {
+    width: 238px;
+    height: 100%;
+    position: relative;
+}
+
+.footer .footer_in .service_top>ul>li>p {
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+    margin-left: 58px;
+}
+
+
+
+.footer .footer_in .service_top>ul>li>a>img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.footer .footer_in .service_top>ul>li>a:nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 58px;
+}
+
+.footer .footer_in .service_top>ul>li>a:nth-child(2):hover {
+    color: #ec5649;
+}
+
+.footer .footer_in .zhichi_bottom {
+    width: 100%;
+    height: 179px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.footer .footer_in .zhichi_bottom>dl>dt {
+    margin-bottom: 5px;
+}
+.footer .footer_in .zhichi_bottom>dl:last-child {
+    width: 130px;
+    height: 100%;
+}
+
+.footer .footer_in .zhichi_bottom>dl:last-child>dd {
+    width: 100px;
+}
+.footer .footer_in .zhichi_bottom>dl>dd>a:hover {
+    color: #f29d38;
+}
+
+
+/*底部*/
+
+.copyright {
+    height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.copyright .copyright_in {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.copyright .copyright_in>div {
+    display: inline-block;
+}
+
+.copyright .copyright_in>p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #999999;
+}
+
+.copyright .copyright_in>p>a {
+    color: #999999;
+}
+
+.copyright .copyright_in .first_line>a{
+    color: #333333;
+}
+.copyright .copyright_in .first_line>span {
+    color: #333333;
+    margin: 0 5px;
+}
+
+.copyright .copyright_in .second_line>a{
+    color: #333333;
+}
+.copyright .copyright_in .second_line>span {
+    color: #333333;
+    margin: 0 5px;
+}
+
+.copyright .copyright_in .second_line {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright .copyright_in .first_line {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.copyright .copyright_in>div:last-child {
+    display: flex;
+    justify-content: center;
+}
